@@ -5,17 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile of Group</title>
+    <style>
+    .card{
+    	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  		max-width: 300px;
+  		margin: auto;
+  		text-align: center;
+  		font-family: arial;
+     }
+     .title {
+  		color: grey;
+  		font-size: 18px;
+	}
+    button {
+  		border: none;
+  		outline: 0;
+  		display: inline-block;
+  		padding: 8px;
+  		color: white;
+  		background-color: #BA55D3;
+  		text-align: center;
+  		cursor: pointer;
+  		width: 100%;
+  		font-size: 18px;
+	}
+    a {
+  		text-decoration: none;
+  		font-size: 22px;
+  		color: black;
+	}
+	button:hover, a:hover {
+  		opacity: 0.7;
+	}
+ 	</style>
 </head>
 <body>
-    <h3>Team Member :</h3>
-    <ol>
-        <li> Member 1
-            <ul>
-                <li>Name : Faris Adam Gunawan</li>
-                <li>Gender : Male</li>
-                <li>DOB : 20 May 1997</li>
-            </ul>
-        </li>
-    </ol>
+    <h2 style="text-align:center">Team Member :</h2>
+    <div class="card">
+    	<img src="http://trimelive.com/wp-content/uploads/2020/12/gambar-Wa-1.png" alt="Profile"></br>
+  		<font size="3">Faris Adam Gunawan</font>
+        <p class="title">20 May 1997</p>
+  		<p>Male</p>
+  		<p><button>Mitrais</button></p>
+	</div>
 </body>
 </html>
